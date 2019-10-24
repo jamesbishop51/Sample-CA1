@@ -16,7 +16,15 @@ namespace question_1
             Player player4 = new Player(4, "Conor", 0);
             Player player5 = new Player(5, "Pauline", 0);
 
+            List<Player> Allplayers = new List<Player>();
+            Allplayers.Add(player1);
+            Allplayers.Add(player2);
+            Allplayers.Add(player3);
+            Allplayers.Add(player4);
+            Allplayers.Add(player5);
 
+            player1.ScoreIncrease(20);
+            player4.ScoreIncrease(99);
 
         }
     }
